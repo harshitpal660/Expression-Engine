@@ -1,6 +1,6 @@
 // this is a food comonent which we will feed to our alien
 // import food from "../Images/food.png"
-import food from "../Images/food2.png"
+import food from "../Images/food.png"
 export const Food =({height,width})=>{
     const innerdivStyleFood = {
         width: "100px", 

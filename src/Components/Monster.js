@@ -1,5 +1,5 @@
 // this is our freind who will guide us to the app
-import monster from "../Images/monster.webp";
+import monster from "../Images/monster.png";
 import { DialogBox } from "../Components/DialogBox";
 export const Monster = ({text}) => {
     const innerdivStyle = {
