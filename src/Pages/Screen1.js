@@ -167,18 +167,18 @@ export const Screen1 = () => {
 
   // Effect to place the food item at a random position when the app is rendered
   useEffect(() => {
-    setFoodPosition([
+    setFoodPosition(
       [
         Math.random() * (window.innerHeight - 100),
         Math.random() * (window.innerWidth - 100),
-      ],
-    ]);
+      ]
+    );
   }, []);
 
   return (
     <>
       <div className="h-100 w-100 bg-black bg-gradient">
-        <Food height={foodPosition[0]} width={foodPosition[1]} />
+        <Food h={foodPosition[0]} w={foodPosition[1]} />
         {displayButton && (
           <div
             className="z-1"
